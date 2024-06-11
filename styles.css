@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.book {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.book h2 {
+  font-size: 18px;
+  color: #333;
+}
+
+.book p {
+  color: #666;
+}
+
+.book a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.book a:hover {
+  text-decoration: underline;
+}
